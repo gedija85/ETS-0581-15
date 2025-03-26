@@ -12,9 +12,9 @@ islower string methodThe islower() method in Python checks whether all the alpha
 The title() method in Python converts a string to title case, meaning the first letter of each word is capitalized while all other letters are converted to lowercase.Non-alphabetic characters (like numbers and symbols) are not affected. If a word starts with a non-letter, it remains unchanged.
           
           
-           #capitalize() Method
+           
+            #capitalize() Method
 The capitalize() method is used to convert the first letter of a string to uppercase, while converting all other letters to lowercase.
-
             
             #swapcase() methode
 the swapcase() method is a built-in string function that returns a new string with all uppercase characters converted to lowercase and all lowercase characters converted to uppercase.
