@@ -13,7 +13,7 @@ The title() method in Python converts a string to title case, meaning the first 
           
           
            #capitalize() Method
-The .capitalize() method is used to convert the first letter of a string to uppercase, while converting all other letters to lowercase.
+The capitalize() method is used to convert the first letter of a string to uppercase, while converting all other letters to lowercase.
 
             
             #swapcase() methode
