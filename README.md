@@ -35,5 +35,5 @@ The startswith() method checks whether a string starts with a specified prefix. 
 Think of the endswith() method as a way to check how a string finishes—kind of like checking if a book title ends with a specific word or if a file has the right extension before opening it.
 
 
-            #count()
+            #count() string method 
 The count() method counts occurrences of a specific substring in a given string and returns that number.
