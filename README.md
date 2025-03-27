@@ -26,3 +26,14 @@ The find() method in Python is used to search for a substring within a string an
             
             #index() method
 The index() method is used to find the first occurrence of a substring within a string. If the substring is not found, it raises a ValueError instead of returning -1 like find(). Use index() if you want an error when the substring is missing instead of find(), ensuring the substring must exist.
+
+            #starswith()
+The startswith() method checks whether a string starts with a specified prefix. It returns True if the string starts with the given prefix and False otherwise.
+
+
+            #endswith()
+Think of the endswith() method as a way to check how a string finishes—kind of like checking if a book title ends with a specific word or if a file has the right extension before opening it.
+
+
+            #count()
+The count() method counts occurrences of a specific substring in a given string and returns that number.
