@@ -49,3 +49,15 @@ The strip() method removes leading and trailing whitespace (spaces, tabs, newlin
 
             13. lstrip() Method
 The lstrip() method removes leading whitespace (spaces, tabs, newlines) from the left side of the string. It only removes characters from the beginning of the string.
+
+
+            14. rstrip() method
+The rstrip() method removes any trailing whitespace or specified characters from the right end of a string. The rstrip() method removes any trailing whitespace or specified characters from the right end of a string.
+
+
+            15. split() method
+The split() method splits a string into a list based on a separator.separator  → The delimiter to split the string. Default is whitespace.maxsplit Maximum number of splits.
+
+
+            16. join() method
+The join() method joins a list of strings into a single string, using a specified separator.
