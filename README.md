@@ -61,3 +61,15 @@ The split() method splits a string into a list based on a separator.separator  â
 
             16. join() method
 The join() method joins a list of strings into a single string, using a specified separator.
+
+
+            17. isalpha() string method
+The isalpha() method checks if all characters in a string are alphabetic (letters from A-Z or a-z). It returns True if the string consists only of letters and False otherwise. Numbers, spaces, and special characters cause this method to return False. This method is useful for validating input that should contain only letters.
+
+
+            18. isdigit() string method
+The isdigit() method checks if all characters in a string are digits (0-9). It returns True if the string consists only of numeric characters and False otherwise. If the string contains letters, spaces, or special symbols, it returns False. This method is useful for checking numerical input in Python programs.
+
+
+            19. isalnum() string method
+The isalnum() method checks if all characters in a string are alphanumeric (letters A-Z, a-z, or digits 0-9). It returns True if the string consists only of letters and/or numbers and False if it contains spaces, symbols, or special characters. This method is useful for validating usernames, passwords, and other text-based inputs where only letters and numbers are allowed.
