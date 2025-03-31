@@ -73,3 +73,15 @@ The isdigit() method checks if all characters in a string are digits (0-9). It r
 
             19. isalnum() string method
 The isalnum() method checks if all characters in a string are alphanumeric (letters A-Z, a-z, or digits 0-9). It returns True if the string consists only of letters and/or numbers and False if it contains spaces, symbols, or special characters. This method is useful for validating usernames, passwords, and other text-based inputs where only letters and numbers are allowed.
+
+
+            20. isspace() string method
+The isspace() method checks if all characters in a string are whitespace characters (spaces, tabs, or newlines). It returns True if the string consists only of whitespace and False if it contains any non-whitespace characters. This method is useful for detecting empty or space-filled inputs.
+
+            
+            21. format() string method
+The format() method is used to insert values into a string using placeholders {}. It allows flexible formatting by specifying positions, named arguments, or formatting options. This method is useful for dynamic string generation and compatibility with older Python versions.
+
+            
+            22. f-string string method
+An f-string (formatted string literal) is a modern and efficient way to embed expressions inside strings using curly braces {}. It is prefixed with f or F before the quotation marks. This method is useful for improving readability, performance, and simplifying string formatting in Python 3.6 and later.
