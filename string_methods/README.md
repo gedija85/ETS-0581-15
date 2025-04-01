@@ -85,3 +85,16 @@ The format() method is used to insert values into a string using placeholders {}
             
             22. f-string string method
 An f-string (formatted string literal) is a modern and efficient way to embed expressions inside strings using curly braces {}. It is prefixed with f or F before the quotation marks. This method is useful for improving readability, performance, and simplifying string formatting in Python 3.6 and later.
+
+
+            23. len() string method
+The len() function returns the number of characters in a string, including spaces and special characters. It is used to determine the length of a string and does not modify the original value.
+
+            24. encode() string method
+The encode() method converts a string into a bytes object using a specified encoding format, with UTF-8 as the default. It is useful for working with text data in different encodings and for transmission or storage purposes.
+
+            25. lower() string method
+The lower() method converts all uppercase letters in a string to lowercase while leaving non-alphabetic characters unchanged. It returns a new string and is commonly used for case-insensitive comparisons.
+
+            26. upper() string method
+The upper() method converts all lowercase letters in a string to uppercase while keeping non-alphabetic characters unchanged. It returns a new string and is often used for standardizing text format.
