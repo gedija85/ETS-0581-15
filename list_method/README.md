@@ -20,3 +20,15 @@ The pop() method removes and returns an element at a specified index in a list w
 
             6. clear() Method
 The clear() method removes all elements from a list while keeping the list itself intact. It modifies the original list and results in an empty list.
+
+
+            7. copy() Method
+The copy() method returns a shallow copy of the list. Modifications to the new list do not affect the original list, unless the list contains nested objects (in which case references are shared). It does not take any arguments and does not modify the original list.
+
+
+            8. index() Method
+The index() method returns the first index at which a specified value is found. It raises a ValueError if the value is not found. It can also take optional start and end parameters to limit the search range. The original list is not modified.
+
+
+            9. count() Method
+The count() method returns the number of times a specified value appears in the list. It takes one required argument — the element to be counted. It does not modify the original list and always returns an integer. If the element is not found, it returns 0 instead of raising an error.
