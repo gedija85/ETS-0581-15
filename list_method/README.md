@@ -32,3 +32,11 @@ The index() method returns the first index at which a specified value is found. 
 
             9. count() Method
 The count() method returns the number of times a specified value appears in the list. It takes one required argument — the element to be counted. It does not modify the original list and always returns an integer. If the element is not found, it returns 0 instead of raising an error.
+
+
+            10. reverse()
+Reverses the elements of the list in place. Does not return a new list. This method modifies the original list and does not take any arguments. No exception is raised unless the object is not a list.
+
+
+            11. sort()
+Sorts the elements of the list in ascending order by default. Optional arguments: key (function to customize sort logic) and reverse (boolean to sort in descending order). It modifies the original list. Raises TypeError if elements are not comparable.
