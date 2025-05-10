@@ -16,3 +16,23 @@ The items() method returns a view object containing the dictionary’s key-value
 
             5. update() Method
 The update() method modifies the dictionary by adding key-value pairs from another dictionary or from keyword arguments. Existing keys will be updated, and new ones will be added.
+
+
+            6. clear() Method
+The clear() method removes all items (key-value pairs) from the dictionary, leaving it empty. This is an irreversible operation and the dictionary will be reset to an empty state.
+
+
+            7. copy() Method
+The copy() method creates a shallow copy of the dictionary. It returns a new dictionary with the same key-value pairs, but changes to the original dictionary will not affect the copy.
+
+
+            8. fromkeys() Method
+The fromkeys() method creates a new dictionary from a sequence of keys and assigns them a default value. The default value is None, but you can specify a value if needed.
+
+
+            9. pop() Method
+The pop() method removes and returns the value associated with a specified key. If the key doesn’t exist, it raises a KeyError unless a default value is provided.
+
+
+            10. popitem() Method
+The popitem() method removes and returns a random (key, value) pair as a tuple. If the dictionary is empty, it raises a KeyError. It is commonly used for pop operations in loops.
