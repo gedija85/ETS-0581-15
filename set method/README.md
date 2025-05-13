@@ -36,3 +36,27 @@ The isdisjoint() method returns True if two sets have no elements in common. Oth
 
             10. issubset() Method
 The issubset() method returns True if all elements of the set are present in another set. Otherwise, it returns False.
+
+
+            11. issuperset() Method
+The issuperset() method returns True if the set contains all elements of another set. Otherwise, it returns False.
+
+
+            12. pop() Method
+The pop() method removes and returns a random element from the set. If the set is empty, it raises a KeyError.
+
+
+            13. remove() Method
+The remove() method deletes a specific element from the set. If the element is not found, it raises a KeyError.
+
+
+            14. symmetric_difference() Method
+The symmetric_difference() method returns a new set with elements that are in either set, but not in both. It does not modify the original sets.
+
+
+            15. symmetric_difference_update() Method
+The symmetric_difference_update() method removes common elements and adds unique elements from another set. It updates the original set.
+
+
+            16. union() Method
+The union() method returns a new set that contains all elements from both sets, removing duplicates. It does not change the original sets.
